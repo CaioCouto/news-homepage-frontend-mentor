@@ -1,0 +1,96 @@
+@import url("index-mobile.css");
+
+@media (min-width: 1440px) {
+    body { padding: 0 10%; }
+
+    .header-menuBtn,
+    .header-menu-closeBtn { display: none; }
+
+    .header-menu {
+        position: absolute;
+        display: block;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .header-menu-list {
+        list-style: none;
+        padding: 0;
+        margin-left: auto;
+        gap: 2rem;
+
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .main-news {
+        gap: 1.5rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .main-news-primary {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-news > * { margin-bottom: 3rem; }
+
+    .main-news-primary-text {
+        margin: 0;
+        gap: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-news-primary-text > div,
+    .main-news-secondary {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-news-primary-title {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .main-news-primary-summary {
+        font-size: 15px;
+        line-height: 2rem;
+    }
+
+    .main-news-primary-btn { width: 50%; }
+
+    .main-news-secondary { justify-content: space-around; }
+
+    .main-news-secondary-title { font-size: max(2rem, 2.5vw); }
+
+    .main-news-secondary-cardTitle { font-size: max(1rem, 2vw); }
+
+    .main-news-secondary-cardSummary {
+        font-size: max(.9rem, 1vw);
+        line-height: 2rem;
+    }
+
+    .main-articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .main-articles-card {
+        align-self: center;
+        margin: 0;
+    }
+
+    .main-news-secondary-divider { margin: 1rem 0; }
+
+    .main-articles-cardNumber { font-size: 3rem; }
+
+    .main-articles-cardTitle { font-size: 20px; }
+
+    .footer > p { display: inline; }
+}
