@@ -5,8 +5,6 @@
 
 **en.** This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
-
 ---
 
 ## Table of contents
