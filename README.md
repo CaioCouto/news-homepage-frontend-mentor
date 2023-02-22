@@ -41,7 +41,7 @@
 
 ### Links
 
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://caiocouto.github.io/news-homepage-frontend-mentor/)
 
 ### Built with
 
